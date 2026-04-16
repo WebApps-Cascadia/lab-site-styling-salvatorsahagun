@@ -123,6 +123,7 @@ main h1, main h2, main h3 {
 ul.bigger li {
     font-size: 1.2em;
     padding: 0.5em 0;
+    
 }
 
 /* Ordered List Numbering */
@@ -133,6 +134,10 @@ main ol {
 
 main ol ol {
     list-style-type: lower-alpha;
+}
+main ul li{
+    list-style-type: square;
+    padding-left: 2em;
 }
 
 /* ==========================================================================
